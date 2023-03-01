@@ -4,6 +4,7 @@ import forms from "./modules/forms";
 import mask from "./modules/mask";
 import checkTextInputs from "./modules/checkTextInputs";
 import showMoreStyles from "./modules/showMoteSt";
+import calc from "./modules/calc";
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -16,4 +17,5 @@ window.addEventListener('DOMContentLoaded', () => {
     checkTextInputs('[name="name"]');
     checkTextInputs('[name="massage"]');
     showMoreStyles('.button-styles', '.styles-2');
+    calc('#size', '#material', '#options', '.promocode', '.calc-price');
 })

@@ -36,7 +36,7 @@ const mask = (selector) => {
         } else {
             setCursorPos(this.value.length)
         }
-    }
+    } 
 
     let inputs = document.querySelectorAll(selector);
 
